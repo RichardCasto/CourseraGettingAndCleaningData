@@ -41,7 +41,7 @@ Key points worth discussing are…
 ## What data was used?
 Generally speaking the following data is provided in the original data set…
 
-“Various Inertial Signal files” (training and test).  This is raw data that has not been processed into values such as Jerk, Magnitude, etc.  Most importantly, this data does not include any calculated Mean or Standard Deviation values.  Because of that fact I do not even attempt to include this data as it would be excluded when I limit the final data set to only include the “Mean” and “Standard Deviation” values.
+* “Various Inertial Signal files” (training and test).  This is raw data that has not been processed into values such as Jerk, Magnitude, etc.  Most importantly, this data does not include any calculated Mean or Standard Deviation values.  Because of that fact I do not even attempt to include this data as it would be excluded when I limit the final data set to only include the “Mean” and “Standard Deviation” values.
 
 * “X_Train.txt files” (training and test).  This is the processed data that includes the calculations I am interested in.
 
@@ -93,6 +93,7 @@ Each of the variables in the codebook section below can use this method to defin
 
 ## What format is used for the tidy data set?
 The “Wide” format (variable/column per measurement) was used.  The tidy data set follows the following rules for a wide format…
+
 1.	One observation per row (in this case aggregate per subject and activity)
 2.	Each variable is in one column only
 
