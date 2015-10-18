@@ -32,6 +32,7 @@ The original codebook is found within the source data listed above.  While the a
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Key points worth discussing are…
+
 1.	What data did I use to merge?
 2.	What measurements are capturing “mean” and “standard deviation”?
 3.	How did I determine the descriptive activity names?
